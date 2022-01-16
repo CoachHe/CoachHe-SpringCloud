@@ -5,13 +5,12 @@
     <!-- 这里的parameterType可以直接用Payment是因为在application.yml中配置了
      所有entity都在com.coachhe.springcloud.entities类下-->
     <insert id="create" parameterType="Payment" useGeneratedKeys="true" keyProperty="id">
-        insert into payment(serial)
-        values (${serial});
+        insert into payment(serial) values (#{serial});
     </insert>
 
     <resultMap id="BaseResultMap" type="com.coachhe.springcloud.entities.Payment">
         <id column="id" property="id" jdbcType="BIGINT"/>
-        <id column="serial" property="serial" jdbcType="BIGINT"/>
+        <id column="serial" property="serial" jdbcType="VARCHAR"/>
     </resultMap>
 
     <select id="getPaymentById" parameterType="Long" resultMap="BaseResultMap">

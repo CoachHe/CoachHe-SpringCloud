@@ -6,7 +6,7 @@ spring:
     name: cloud-payment-service
   datasource:
 #    type: com.alibaba.druid.pool.DruidDataSource  # 当前数据源操作类型
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     # mysql驱动包
     url: jdbc:mysql://9.135.220.213:3306/cloudLearn?useUnicode=true&characterEncoding=UTF-8&useSSL=false&characterSetResults=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
     username: root
