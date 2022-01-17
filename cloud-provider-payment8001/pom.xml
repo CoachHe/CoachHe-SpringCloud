@@ -13,11 +13,20 @@
     <description>支付模块，可以通过这个模块往数据库里增加数据和得到支付id</description>
 
     <dependencies>
+
         <dependency>
             <groupId>com.coachhe.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
+
+        <!-- springcloud -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <!-- spring boot starter -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
