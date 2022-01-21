@@ -4,6 +4,7 @@ import com.coachhe.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Param;
 
 /**
+ * Payment8001 Service
  * @author heyizhi
  */
 public interface PaymentService {

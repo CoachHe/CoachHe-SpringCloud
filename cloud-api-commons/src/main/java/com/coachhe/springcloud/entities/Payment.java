@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
+ * 通用的支付类，继承Serializable是因为需要序列化
  * @author heyizhi
  */
 @Data

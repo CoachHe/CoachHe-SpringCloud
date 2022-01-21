@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
+ * 返回给前端的接口类
  * @author heyizhi
  */
 @Data

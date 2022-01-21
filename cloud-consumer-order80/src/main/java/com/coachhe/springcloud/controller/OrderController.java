@@ -12,6 +12,7 @@ import org.springframework.web.client.RestTemplate;
 import javax.annotation.Resource;
 
 /**
+ * 订单类的Controller类
  * @author CoachHe
  * @date 2022/1/14 12:30 AM
  **/

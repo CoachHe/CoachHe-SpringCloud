@@ -4,11 +4,14 @@ import com.coachhe.springcloud.entities.CommonResult;
 import com.coachhe.springcloud.entities.Payment;
 import com.coachhe.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.*;
-
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 /**
+ * Payment8001的主启动类
  * @author heyizhi
  */
 @RestController
