@@ -13,4 +13,4 @@ eureka:
     fetchRegistry: true
     service-url:
 #      defaultZone: http://localhost:7001/eureka
-      defaultZone: http://localhost:7001/eureka,http://localhost:7003/eureka # 集群情况下需要将所有eureka server写入
+      defaultZone: http://localhost:10701/eureka,http://localhost:10702/eureka # 集群情况下需要将所有eureka server写入
