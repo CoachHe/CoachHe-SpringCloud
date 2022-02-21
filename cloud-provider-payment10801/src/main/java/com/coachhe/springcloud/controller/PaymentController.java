@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 /**
- * Payment8001的主启动类
+ * Payment10801的主启动类
  * @author heyizhi
  */
 @RestController

@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
- * PaymentMain10801的主启动类
+ * PaymentMain10802的主启动类
  * @author heyizhi
  */
 @SpringBootApplication
